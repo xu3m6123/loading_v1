@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <!--meta標籤為提供瀏覽器或搜尋引擎內容的標籤，瀏覽者不一定看得到；charset屬性描述網頁文檔編碼；選用utf-8解碼網頁中文顯示，早期中文顯示為big-5-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Loading</title>
+        
+        <!--rel是指外部檔案與此網頁的連接關係，stylesheet意思是外部的網頁外觀修飾檔-->
+        <!--MIME type，MIME=網際網路媒體類型，text是檔案類型，css是子類型-->
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="bm" class="bmc"></div>
+        <img id="page" class="page" src="./img/lottiepage.png"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie_svg.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+            $(window).on("load",function(){
+                setTimeout(function(){$(".bmc").fadeOut("slow")},3000); 
+            })
+        </script>
+    </body>
+</html>

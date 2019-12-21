@@ -1,0 +1,23 @@
+body{
+    width: 1280px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.bmc{
+    position: absolute;
+    display: flex;
+    float: left;
+    padding: 100px 0px;
+    margin: 0px;
+    width:1280px;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
