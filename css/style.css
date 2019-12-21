@@ -13,6 +13,7 @@ body{
     height:500px;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
 }
 .page{
     display: block;
